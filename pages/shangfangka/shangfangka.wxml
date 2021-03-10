@@ -1,0 +1,76 @@
+<view wx:if="{{show1}}">
+	<view class="td">
+		<view class="item2">
+			<text>生活态度取向</text>
+		</view>
+	</view>
+
+	<view class="item3">
+		<text
+			decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上方卡是正面管教工具之一，帮助人们了解自己架起了一座桥梁，让人们迅速地洞察自己的生活方式，帮助理解个人的核心信念。</text>
+	</view>
+
+	<view class="item3">
+		<text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;它也提供了一个快速的渠道，帮助人们找到被理解的感觉。</text>
+	</view>
+	<view class='flex-wrp-row item'>
+		<view class='item-left flex-wrp-row'>
+			<image src='../images/f1.png' class='icon-left' mode='aspectFit'></image>
+			<text decode="{{true}}">&nbsp;&nbsp;</text>
+			<open-data type="userNickName"></open-data>
+			<text decode="{{true}}">&nbsp;&nbsp;</text>
+		</view>
+
+		<view class='item-right flex-wrp-row'>
+			<view class="item4">
+				<text catchtap="startTest">开始</text>
+			</view>
+		</view>
+	</view>
+</view>
+<view wx:if="{{show2}}">
+	<view class='flex-wrp-row item'>
+		<view class='item-left flex-wrp-row'>
+			<text decode="{{true}}" catchtap="endTest">&nbsp;&nbsp;&lt;&nbsp;&nbsp;</text>
+		</view>
+	</view>
+	<view class="item3">
+		<text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;快递员给你送来4个盒子，要选择1个盒子退回去，你选择哪个？</text>
+	</view>
+	<view class="item6">
+		<view class="item7">
+			<text catchtap="box1">压力和痛苦</text>
+		</view>
+		<view class="item7">
+			<text catchtap="box2">批评和羞辱</text>
+		</view>
+	</view>
+
+	<view class="item6">
+		<view class="image-parent" catchtap="box1">
+			<image class='image' src='../images/box1.jpg' mode="aspectFill"></image>
+		</view>
+
+		<view class="image-parent" catchtap="box2">
+			<image class='image' src='../images/box1.jpg' mode="aspectFill"></image>
+		</view>
+	</view>
+	<view class="item8"></view>
+	<view class="item6">
+		<view class="item7">
+			<text catchtap="box3">拒绝和争吵</text>
+		</view>
+		<view class="item7">
+			<text catchtap="box4">无意义和不重要</text>
+		</view>
+	</view>
+
+	<view class="item6">
+		<view class="image-parent" catchtap="box3">
+			<image class='image' src='../images/box1.jpg' mode="aspectFill"></image>
+		</view>
+		<view class="image-parent" catchtap="box4">
+			<image class='image' src='../images/box1.jpg' mode="aspectFill"></image>
+		</view>
+	</view>
+</view>

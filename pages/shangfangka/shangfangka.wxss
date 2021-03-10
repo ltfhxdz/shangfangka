@@ -1,0 +1,117 @@
+.td {
+  display: flex;
+  justify-content: center;
+}
+
+.item1 {
+  font-size: 70rpx;
+  text-align: center;
+  margin-top: 10rpx;
+  margin-bottom: 15rpx;
+  width: 300rpx;
+  color: black;
+}
+
+
+.item2 {
+  font-size: 40rpx;
+  text-align: center;
+  margin-top: 10rpx;
+  margin-bottom: 15rpx;
+  width: 300rpx;
+  color: black;
+  background-color: whitesmoke;
+  border-top-left-radius: 30rpx;
+  border-top-right-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+  border-bottom-left-radius: 30rpx;
+}
+
+.item3 {
+  font-size: 40rpx;
+  margin-top: 5rpx;
+  margin-bottom: 70rpx;
+  margin-left: 20rpx;
+  color: black;
+}
+
+.item4 {
+  font-size: 40rpx;
+  text-align: center;
+  margin-top: 10rpx;
+  margin-bottom: 15rpx;
+  width: 200rpx;
+  color: white;
+  background: rgb(77, 47, 160);
+  border-top-left-radius: 30rpx;
+  border-top-right-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+  border-bottom-left-radius: 30rpx;
+}
+
+.item5 {
+  font-size: 40rpx;
+  margin-right: 200rpx;
+  color: black;
+  margin-top: 10rpx;
+  margin-bottom: 15rpx;
+}
+
+
+.item6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item7 {
+    font-size: 40rpx;
+    text-align: center;
+    color: black;
+}
+
+.item8 {
+    margin-top: 80rpx;
+}
+
+.image-parent {
+    position: relative;
+}
+
+.image {
+    width: 300rpx;
+    height: 300rpx;
+}
+
+.flex-wrp-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  color: black;
+}
+ 
+.item {
+  padding: 25rpx;
+  position: relative;
+
+}
+ 
+.item-left {
+   flex: 1; /* 重要 */
+   align-items:center;
+}
+ 
+.item-right {
+  position: relative;
+  align-items:center;
+}
+
+.icon-left{
+  width: 25px;
+  height: 25px;
+}
+
+.icon-right{
+  width: 20px;
+  height: 20px;
+}
